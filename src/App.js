@@ -1,3 +1,6 @@
+// @author: Amir Armion
+// @version: V.01
+
 import { ChakraProvider } from "@chakra-ui/react";
 import Header from "./components/Header";
 import LandingSection from "./components/LandingSection";
@@ -9,6 +12,7 @@ import Alert from "./components/Alert";
 
 function App() 
 {
+  
   return (
     <ChakraProvider>
       <AlertProvider>

@@ -1,3 +1,6 @@
+// @author: Amir Armion
+// @version: V.01
+
 import React from "react";
 import FullScreenSection from "./FullScreenSection";
 import { Box, Heading } from "@chakra-ui/react";
@@ -32,6 +35,7 @@ const projects = [
 ];
 
 const ProjectsSection = () => {
+  
   return (
     <FullScreenSection
       backgroundColor="#14532d"

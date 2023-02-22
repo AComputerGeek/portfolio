@@ -1,3 +1,6 @@
+// @author: Amir Armion
+// @version: V.01
+
 import { useState } from "react";
 
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));

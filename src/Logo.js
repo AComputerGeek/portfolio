@@ -1,3 +1,6 @@
+// @author: Amir Armion
+// @version: V.01
+
 import React from 'react';
 import { Image, keyframes, usePrefersReducedMotion } from '@chakra-ui/react';
 import logo from './logo.svg';
@@ -8,6 +11,7 @@ const spin = keyframes`
 `;
 
 export const Logo = props => {
+  
   const prefersReducedMotion = usePrefersReducedMotion();
 
   const animation = prefersReducedMotion

@@ -1,3 +1,6 @@
+// @author: Amir Armion
+// @version: V.01
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';

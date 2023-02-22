@@ -1,3 +1,6 @@
+// @author: Amir Armion
+// @version: V.01
+
 import React from "react";
 import { Avatar, Heading, VStack, Text } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
@@ -6,8 +9,6 @@ const greeting = "Hello, I am Pete!";
 const bio1     = "A Frontend Developer";
 const bio2     = "Specialised in React";
 
-// Implement the UI for the LandingSection component according to the instructions.
-// Use a combination of Avatar, Heading and VStack components.
 const LandingSection = () => (
   <FullScreenSection
     justifyContent="center"

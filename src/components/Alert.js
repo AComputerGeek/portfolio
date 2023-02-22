@@ -1,3 +1,6 @@
+// @author: Amir Armion
+// @version: V.01
+
 import { AlertDialog, AlertDialogBody, AlertDialogContent, AlertDialogHeader, AlertDialogOverlay } from "@chakra-ui/react";
 import { useAlertContext } from "../context/alertContext";
 import { useRef } from "react";
